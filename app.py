@@ -104,10 +104,10 @@ if uploaded_file:
 
                     if toggle_prompt:
                       system_prompt = "huhu"
-                        st.text_area(
-                            f"Generated System Prompt for Metric {i + 1}:", value=system_prompt, height=200
+                      st.text_area(
+                        f"Generated System Prompt for Metric {i + 1}:", value=system_prompt, height=200
                         )
-                        st.success(f"System Prompt for Metric {i + 1} is hardcoded as 'huhu'.")
+                      st.success(f"System Prompt for Metric {i + 1} is hardcoded as 'huhu'.")
 
                     else:
                         system_prompt = st.text_area(
